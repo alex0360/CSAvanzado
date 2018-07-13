@@ -36,15 +36,32 @@ namespace Coleccion2_1Generica
             Console.WriteLine("-------------");
 
             coleccion.Show(Lista);
-            Console.WriteLine("-------------");
 
             // Eliminar por valor
             Lista.Remove(8);// Elimina el primero que se encuentre
             coleccion.Show(Lista);
-            Console.WriteLine("-------------");
 
-            // 
+            //  Lista se coloca en sentido contrario
+            Lista.Reverse();
+            coleccion.Show(Lista);
 
+            // Mandamos a ordenar la Lista
+            Lista.Sort();
+            coleccion.Show(Lista);
+
+            // Creamos nuna lista para Clase // https://youtu.be/49ls_biDRog
+            System.Collections.Generic.List<Show.Punto> ListPuntos =
+                new System.Collections.Generic.List<Show.Punto> {
+                    new Show.Punto(5, 7),
+                    new Show.Punto(7, 8)// Modo simplificado
+                };
+
+            ListPuntos.Add(new Show.Punto(12, 5)); // Modo posterior
+
+            foreach(Show.Punto punto in ListPuntos)
+                Console.WriteLine(punto);
+            // No funciona por que no hemos implementado Icomparable
+            // ListPuntos.Sort();
             Console.ReadKey();
         }
     }

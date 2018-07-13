@@ -70,5 +70,17 @@
             System.Console.Write("Total de elementos {0}",List.Count);
             return List.Count;
         }
+        /// <summary>
+        /// Muestra la cantidad de elementos de un SortedSet
+        /// </summary>
+        /// <param name="StPuntos">La instacia a cuantifical</param>
+        /// <returns>la Cantidad de elementos</returns>
+        public static int Count
+            (System.Collections.Generic.SortedSet<Punto> StPuntos)
+        {
+            foreach (Punto p in StPuntos)
+                System.Console.Write("->{0}", StPuntos);
+            return StPuntos.Count;
+        }
     }
 }

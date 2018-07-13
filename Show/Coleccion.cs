@@ -138,5 +138,45 @@
             LineasEsp.Salto(salto);
         }
         #endregion
+        #region Stack<Punto>
+        /// <summary>
+        /// Muestra los Valores de un Stack generio de tipo Class Punto
+        /// </summary>
+        /// <param name="puntos">Nombre de la Instacia de la Class Punto</param>
+        /// <param name="salto">Tipo de Salto deciado</param>
+        public void Show(System.Collections.Generic.Stack<Punto> puntos, int salto= 1)
+        {
+            foreach(Punto p in puntos)
+                System.Console.Write("->{0}\n", p);
+            LineasEsp.Salto(salto);
+        }
+        #endregion
+        #region Queue<Punto>
+        /// <summary>
+        /// Muestra los Valores de un Queue generio de tipo Class Punto
+        /// </summary>
+        /// <param name="puntos">Nombre de la Instacia de la Class Punto</param>
+        /// <param name="salto">Tipo de Salto deciado</param>
+        public void Show(System.Collections.Generic.Queue<Punto> puntos, int salto = 1)
+        {
+            foreach(Punto p in puntos)
+                System.Console.Write("->{0}\n", p);
+            LineasEsp.Salto(salto);
+        }
+        #endregion
+        #region SortedSet<Punto>
+        /// <summary>
+        /// Muestra los Valores de un SortedSet generio de tipo Class Punto
+        /// </summary>
+        /// <param name="StPuntos">Nombre de la Instacia de la Class Punto</param>
+        /// <param name="salto">Tipo de Salto deciado</param>
+        public void Show
+            (System.Collections.Generic.SortedSet<Punto> StPuntos, int salto=1)
+        {
+            foreach (Punto p in StPuntos)
+                System.Console.Write("->{0}\n", p);
+            LineasEsp.Salto(salto);
+        }
+        #endregion
     }
 }
