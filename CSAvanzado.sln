@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanzado3_1varNulleableDyna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanzado4_1MetodosGenariocos", "Avanzado4_1MetodosGenariocos\Avanzado4_1MetodosGenariocos.csproj", "{593887BD-F244-4311-A1C3-29C39B6D8207}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanzado4_2ClasesGenericas", "Avanzado4_2ClasesGenericas\Avanzado4_2ClasesGenericas.csproj", "{1A9B9CE2-2051-4A42-91FD-458C80643B7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{593887BD-F244-4311-A1C3-29C39B6D8207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593887BD-F244-4311-A1C3-29C39B6D8207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{593887BD-F244-4311-A1C3-29C39B6D8207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9B9CE2-2051-4A42-91FD-458C80643B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9B9CE2-2051-4A42-91FD-458C80643B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9B9CE2-2051-4A42-91FD-458C80643B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9B9CE2-2051-4A42-91FD-458C80643B7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
