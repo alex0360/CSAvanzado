@@ -15,18 +15,27 @@ namespace Show
 
         public Tipo Resta(Tipo x, Tipo y)
         {
-            dynamic a = x, b = y;
-            return a - b;
+            dynamic a = x, b = y, resultado;
+            if (typeof(Tipo) == typeof(int))
+                resultado = a - b;
+            else resultado = a + b;
+            return resultado;
         }
         public Tipo Multiplicacion(Tipo x, Tipo y)
         {
-            dynamic a = x, b = y;
-            return a * b;
+            dynamic a = x, b = y, resultado;
+            if (typeof(Tipo) == typeof(int))
+                resultado = a * b;
+            else resultado = a + b;
+            return resultado;
         }
         public Tipo Divicion(Tipo x, Tipo y)
         {
-            dynamic a = x, b = y;
-            return a / b;
+            dynamic a = x, b = y, resultado;
+            if (typeof(Tipo) == typeof(int))
+                resultado = a / b;
+            else resultado = a + b;
+            return resultado;
         }
     }
 }
